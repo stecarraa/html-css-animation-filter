@@ -62,31 +62,49 @@ opacity: 0;
 /* esercizio 6 */
 
 .ex-6-img{
-    transition: 2s;
+    transition: 0s;
     
 }
 
 .ex-6-img:hover{
-  filter: ;
+  filter: grayscale(1);
     
 }
 
 /* esercizio 7 */
 
 .ex-7-img{
-    
+    transition: 2s;
+}
+
+.ex-7-img:hover{
+    filter: saturate(.6) grayscale(.5);
+
 }
 
 /* esercizio 8 */
 
 .ex-8-img{
-    
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: saturate(.6) grayscale(.5);
+    border-radius: 20px;
+
 }
 
 /* esercizio 9 */
 
 .ex-9-img{
+    transition: 2s;
     
+}
+
+.ex-9-img:hover{
+    filter: saturate(.6) grayscale(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
 }
 
 /* esercizio 10 */
