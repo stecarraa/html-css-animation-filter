@@ -110,13 +110,34 @@ opacity: 0;
 /* esercizio 10 */
 
 .ex-10-icon{
+    animation: spin 2s linear infinite;
     
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 
 /* esercizio 11 */
 
-.ex-11-icon{
-    
+.ex-11-icon:hover{
+    animation: spinmore 2s linear infinite;
+}
+
+@keyframes spinmore {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+         transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 /* esercizio 12 */
